@@ -1,0 +1,82 @@
+:root {
+  --opacity: 1;
+}
+
+.header {
+  background-color: rgba(256, 256, 256, var(--opacity));
+  width: 100%;
+  padding: 1em;
+  position: fixed;
+  transition: background-color 0.3s;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+.header:hover {
+  --opacity: 1;
+}
+
+.logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+@font-face {
+  font-family: "Monoton";
+  src: url('../fonts/Monoton-Regular.ttf') format('truetype');
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo h2 {
+  font-family: "Monoton", cursive;
+  src: url('../fonts/Monoton-Regular.ttf') format('truetype');
+  font-size: 28px;
+  font-weight: 400;
+  color: #1bb1dc;
+  margin: 3px 0 0 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links ul {
+    display: flex;
+}
+.links li {
+    margin-top: 15px;
+    list-style: none;
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+}
+.links li a:hover {
+    color: #1bb1dc;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.links li a {
+  color: black;
+}
+
+.bi-laptop:hover {
+  background-color: rgb(59, 57, 57);
+  width: 50px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+}

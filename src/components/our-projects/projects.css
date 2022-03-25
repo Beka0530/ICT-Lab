@@ -1,0 +1,69 @@
+.project {
+    /* background: linear-gradient(135deg, lightgrey 30%, white); */
+    background: linear-gradient(135deg, white 20%, lightgrey 70%, white 20%);
+}
+
+.carousel-all {
+    margin-top: 50px;
+    height: 500px;
+    color: white;
+    border-radius: 20px;
+}
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: 000;
+    font-family: monospace, sans-serif;
+    margin-top: 20px;
+}
+
+.carousel-all img {
+    width: 20%;
+    height: 20%;
+    margin: 10px 0 60px 0;
+    transform: translate(470px, 0);
+    border-radius: 20px;
+}
+.carousel-all img:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    /* transform: scale(0.8); */
+    transform: translate(470px, 0);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.carousel-all .vak {
+    width: 390px;
+    height: 280px;
+    margin-left: -70px;
+}
+
+.carousel-all .fsa {
+    width: 390px;
+    height: 280px;
+    margin-left: -70px;
+}
+.carousel-all .mobile {
+    width: 390px;
+    height: 280px;
+    margin-left: -70px;
+}
+.carousel-all .web {
+    width: 390px;
+    height: 280px;
+    margin-left: -70px;
+}
+.carousel-all .tablet {
+    width: 390px;
+    height: 280px;
+    margin-left: -70px;
+}
+.title-project {
+    text-align: center;
+    padding: 40px 0 0 0;
+    margin-top: 80px;
+    font-family: monospace, sans-serif;
+}

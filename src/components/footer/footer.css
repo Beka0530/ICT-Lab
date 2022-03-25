@@ -1,0 +1,28 @@
+.main-footer {
+    height: 80px;
+    background: lightgrey;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text p {
+    margin-top: 40px;
+}
+.footer-text ul {
+    display: flex;
+    margin-top: 40px;
+}
+.footer-text ul li {
+    padding: 0 10px 0 10px;
+    list-style: none;
+    font-size: 15px;
+}
+.footer-text ul li a {
+    color: black;
+}
+
+.footer-text .icons {
+    margin-top: 25px;
+}

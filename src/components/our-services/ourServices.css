@@ -1,0 +1,127 @@
+.services {
+  height: 100%;
+  /* margin-bottom: 50px; */
+}
+.title-services {
+  margin-top: 50px;
+  text-align: center;
+  font-family: monospace, sans-serif;
+}
+.blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.first-block {
+  width: 800px;
+  height: 300px;
+  background-color: #89d5ff;
+  box-shadow: 4px -3px 6px rgb(0 0 0 / 25%);
+  margin-bottom: 50px;
+}
+.block-info {
+  width: 800px;
+  height: 300px;
+  background: rgba(137, 213, 255, 0.5);
+  margin-top: 20px;
+  margin-left: -25px;
+  box-shadow: 4px -3px 6px rgb(0 0 0 / 25%);
+}
+.block-info:hover {
+  cursor: pointer;
+  transform: translate(5px, -10px);
+  transition: all 0.3s;
+}
+.block-title {
+  display: flex;
+  justify-content: space-around;
+}
+.block-text {
+  margin-top: 60px;
+  text-align: center;
+}
+.block-text .pshka {
+  width: 250px;
+  text-align: start;
+  font-size: 18px;
+  margin-left: 30px;
+}
+.block-title img {
+  width: 300px;
+  height: 300px;
+}
+
+.block-text .bi-laptop {
+  margin-bottom: 10px;
+}
+
+.block-text h4 {
+  font-weight: bold;
+}
+
+.block-text .bi-pencil-square {
+  margin-bottom: 10px;
+}
+
+.block-title .photo {
+  width: 230px;
+  height: 230px;
+  margin-top: 30px;
+}
+
+.second-block {
+  width: 800px;
+  height: 300px;
+  background: #d5fcf9;
+  box-shadow: 4px -3px 6px rgb(0 0 0 / 25%);
+  margin-bottom: 50px;
+}
+
+.block-info-two {
+  width: 800px;
+  height: 300px;
+  background: rgba(213, 252, 249, 0.5);
+  margin-top: 20px;
+  margin-left: -25px;
+  box-shadow: 4px -3px 6px rgb(0 0 0 / 25%);
+}
+
+.block-info-two:hover {
+  cursor: pointer;
+  transform: translate(5px, -10px);
+  transition: all 0.3s;
+}
+
+.third-block {
+  width: 800px;
+  height: 300px;
+  background: #fbc99b;
+  box-shadow: 4px -3px 6px rgb(0 0 0 / 25%);
+  margin-bottom: 50px;
+}
+
+.block-info-three {
+  width: 800px;
+  height: 300px;
+  background: rgba(251, 201, 155, 0.5);
+  margin-top: 20px;
+  margin-left: -25px;
+  box-shadow: 4px -3px 6px rgb(0 0 0 / 25%);
+}
+
+.block-info-three:hover {
+  cursor: pointer;
+  transform: translate(5px, -10px);
+  transition: all 0.3s;
+}
+
+.block-title .project {
+  width: 230px;
+  height: 230px;
+  margin-top: 30px;
+}
+
+.block-text .bi-card-checklist {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,70 @@
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.back {
+    position: absolute;
+    opacity: 0.2;
+    transform: translate(-100px, 80px);
+}
+.back2 {
+    position: absolute;
+    opacity: 0.2;
+    transform: translate(20px, 160px);
+}
+
+.about-us h3 {
+    font-size: 32px;
+}
+.about-us .title {
+    width: 50%;
+    font-size: 18px;
+}
+
+.about-us img {
+    width: 400px;
+    height: 300px;
+    z-index: 1;
+}
+
+.about-us img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+
+.title li {
+    margin-left: -32px;
+    list-style: none;
+    padding-bottom: 15px;
+
+}
+
+.icons {
+    width: 30%;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons:hover {
+    cursor: pointer;
+}
+
+.icons .bi-facebook:hover {
+    transform: scale(1.4);
+    transition: all 0.3s;
+}
+
+.icons .bi-instagram:hover {
+    transform: scale(1.4);
+    transition: all 0.3s;
+}
+
+.icons .bi-whatsapp:hover {
+    transform: scale(1.4);
+    transition: all 0.3s;
+}
